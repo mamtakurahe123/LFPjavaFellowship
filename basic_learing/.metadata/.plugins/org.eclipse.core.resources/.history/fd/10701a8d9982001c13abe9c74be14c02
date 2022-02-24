@@ -1,7 +1,0 @@
-package binarylogicalprogram;
-
-import java.util.Scanner;
-
-public class BinarytoOctal {
-
-}
