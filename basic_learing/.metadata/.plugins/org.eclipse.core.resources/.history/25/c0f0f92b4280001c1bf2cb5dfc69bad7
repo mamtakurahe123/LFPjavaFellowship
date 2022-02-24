@@ -1,0 +1,29 @@
+package localandgobalveriables;
+import java.util.Scanner;
+
+public class localandGobal {
+	
+	public static int a,b;
+	
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("Enter value of a");
+		 a=in.nextInt();
+		 
+		 System.out.println("Enter value of b");
+		 b=in.nextInt();
+		
+		
+		
+	}
+	
+	public static void add(int a, int b) {
+		int c=0;
+		System.out.println("addition of two number is");
+		a.
+		
+	}
+
+}

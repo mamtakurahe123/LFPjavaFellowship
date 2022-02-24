@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+F:\Mamta\brizlage_assigment\basic java practies program\.metadata\.plugins\org.eclipse.jdt.core
+2821880272.index
+256358440.index
+710273224.index
+1865797976.index
+3132555465.index

@@ -1,0 +1,15 @@
+package localandgobalveriables;
+
+public class localandGobal {
+	
+	public static int a,b;
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static add() {
+		
+	}
+
+}

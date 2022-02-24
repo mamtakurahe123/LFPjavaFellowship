@@ -1,0 +1,17 @@
+package localandgobalveriables;
+
+public class sample {
+	
+	int a=10, b;
+	
+	public static void main(String[] args) {
+		
+		int a =15, b;
+	
+	}
+    public static void printvalue(int a) {
+    	
+    }
+    
+
+}

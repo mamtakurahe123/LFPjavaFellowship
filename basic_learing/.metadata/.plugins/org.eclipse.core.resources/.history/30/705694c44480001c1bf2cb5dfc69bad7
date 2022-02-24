@@ -1,0 +1,10 @@
+package localandgobalveriables;
+
+public class sample {
+	int a , b;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
