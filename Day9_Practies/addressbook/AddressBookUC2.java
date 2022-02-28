@@ -1,4 +1,4 @@
-package addressbook;
+package AddressBookSystem;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-class AddressBook2{
-	// class variable
+class AddressBook {
+    // class variable
     static final Scanner scanner = new Scanner(System.in);
     static Set<String> emptyContacts = new HashSet<>();
 
@@ -36,7 +36,7 @@ class AddressBook2{
         }
     }
 
-   public void fillContactDetails() throws Exception {
+    void fillContactDetails() throws Exception {
         System.out.print("enter empty contact name which is going to be filed:");
         String contactName = scanner.nextLine();
         if (emptyContacts.contains(contactName))
@@ -67,14 +67,14 @@ class AddressBook2{
             System.out.println("use other option 1 to create new contact");
         }
     }
-}
-public class AddressBookUC2 {
-	// class variable
+}    
+public class UC2_AddNewContact {
+    // class variable
     static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws Exception 
     {
-        AddressBook2 addressBook = new AddressBook2();
+        AddressBook addressBook = new AddressBook();
         while (true) 
         {
             System.out.println("-----------------------------");
@@ -102,5 +102,4 @@ public class AddressBookUC2 {
         }
 
     }
-
 }
